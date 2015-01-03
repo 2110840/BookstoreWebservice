@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1cc1392a-414b-40c2-9c69-64819a99bc41" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://boostorewebservice.apphb.com/ServiceBookStore.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceBookStore.wsdl" MetadataType="Wsdl" ID="cc0c7b01-9613-4be4-93cd-8e05007e8fce" SourceId="1" SourceUrl="http://boostorewebservice.apphb.com/ServiceBookStore.svc?wsdl" />
+    <MetadataFile FileName="ServiceBookStore.xsd" MetadataType="Schema" ID="7e612a71-f5ee-4c85-91b7-6386e4702654" SourceId="1" SourceUrl="http://boostorewebservice.apphb.com/ServiceBookStore.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceBookStore1.xsd" MetadataType="Schema" ID="1d8db237-320e-4021-89c7-2b8ef1f37d38" SourceId="1" SourceUrl="http://boostorewebservice.apphb.com/ServiceBookStore.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceBookStore2.xsd" MetadataType="Schema" ID="e9a8656f-3e8d-476b-a7e7-323e997ba46a" SourceId="1" SourceUrl="http://boostorewebservice.apphb.com/ServiceBookStore.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceBookStore.disco" MetadataType="Disco" ID="dc2715b7-aaa7-494a-a209-a3b39e514374" SourceId="1" SourceUrl="http://boostorewebservice.apphb.com/ServiceBookStore.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreWebservice", "BookstoreWebservice\BookstoreWebservice.csproj", "{E1B44D05-F085-43A5-8B47-BCBE9DC05581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStroreApplication", "BookStroreApplication\BookStroreApplication.csproj", "{FA837D50-407A-4A4F-9B03-E7658FBA9138}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStroreClientAdmin", "BookStroreApplication\BookStroreClientAdmin.csproj", "{FA837D50-407A-4A4F-9B03-E7658FBA9138}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E1B44D05-F085-43A5-8B47-BCBE9DC05581} = {E1B44D05-F085-43A5-8B47-BCBE9DC05581}
 	EndProjectSection
