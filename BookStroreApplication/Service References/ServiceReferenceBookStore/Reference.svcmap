@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9de1c824-bd79-4cd3-afe5-307f432a7d86" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5329/ServiceBookStore.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceBookStore.disco" MetadataType="Disco" ID="aeddb0cb-6280-4c53-b4f8-7748ece3efa9" SourceId="1" SourceUrl="http://localhost:5329/ServiceBookStore.svc?disco" />
+    <MetadataFile FileName="ServiceBookStore.xsd" MetadataType="Schema" ID="7f278b13-a4d8-4ada-8611-a67e0cfc7e94" SourceId="1" SourceUrl="http://localhost:5329/ServiceBookStore.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceBookStore1.xsd" MetadataType="Schema" ID="67348b0a-0742-41d2-af30-d665801a83c4" SourceId="1" SourceUrl="http://localhost:5329/ServiceBookStore.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceBookStore.wsdl" MetadataType="Wsdl" ID="feb41b5a-5274-49a6-bde3-7354ad6c5117" SourceId="1" SourceUrl="http://localhost:5329/ServiceBookStore.svc?wsdl" />
+    <MetadataFile FileName="ServiceBookStore2.xsd" MetadataType="Schema" ID="47760101-d083-4963-86f4-0d6a4069b313" SourceId="1" SourceUrl="http://localhost:5329/ServiceBookStore.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

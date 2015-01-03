@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+  <book CATEGORY="CHILDREN">
+    <title>Harry Potter</title>
+    <author>J. K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book CATEGORY="WEB">
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+  </book>
+  <book CATEGORY="Conteúdo da cadeia">
+    <title>Conteúdo da cadeia</title>
+    <author>Conteúdo da cadeia</author>
+    <year>213647</year>
+    <price>1.26743233</price>
+  </book>
+</bookstore>
