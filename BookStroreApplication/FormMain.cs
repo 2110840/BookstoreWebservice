@@ -105,8 +105,7 @@ namespace BookStroreApplication
                             Book[] books = client.GetBooks(token);
                             foreach (Book b in books)
                             {
-                                txtBox_OutPut.Text += printBook(b) + Environment.NewLine;
-                                //teste ulçtimo commit
+                                txtBox_OutPut.Text += printBook(b) + Environment.NewLine;                               
                             }
                             break;
                         default:
