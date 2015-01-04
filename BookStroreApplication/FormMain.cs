@@ -106,7 +106,7 @@ namespace BookStroreApplication
                             foreach (Book b in books)
                             {
                                 txtBox_OutPut.Text += printBook(b) + Environment.NewLine;
-                                //teste ulçtimo commitgeg
+                                //teste ulçtimo commit
                             }
                             break;
                         default:
