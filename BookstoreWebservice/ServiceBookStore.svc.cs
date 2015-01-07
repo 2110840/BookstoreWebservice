@@ -84,6 +84,9 @@ namespace BookstoreWebservice
             }
         }
 
+        /*
+         *  SIGN UP
+         */ 
         public void SignUp(User user, string token)
         {
             checkAuthentication(token, true);
@@ -94,6 +97,9 @@ namespace BookstoreWebservice
             users.Add(user.Username, user);
         }
 
+        /*
+         *  LOG IN
+         */
         public string LogIn(string username, string password)
         {
             cleanUpTokens();
@@ -109,6 +115,9 @@ namespace BookstoreWebservice
             }
         }
 
+        /*
+         *  LOG OUT
+         */ 
         public void LogOut(string token)
         {
 
@@ -116,11 +125,17 @@ namespace BookstoreWebservice
             cleanUpTokens();
         }
 
+        /*
+         *  IS ADMIN
+         */ 
         public bool IsAdmin(string token)
         {
             return tokens[token].User.Admin;
         }
 
+        /*
+         * IS LOGGED  IN
+         */ 
         public bool IsLoggedIn(string token)
         {
             bool res = true;
@@ -135,6 +150,9 @@ namespace BookstoreWebservice
             return res;
         }
 
+        /*
+         * CLEAN UP TOKENS
+         */ 
         private void cleanUpTokens()
         {
             foreach (Token tokenObject in tokens.Values)
@@ -146,6 +164,9 @@ namespace BookstoreWebservice
             }
         }
 
+        /*
+         *  CHECK AUTHENTICATION
+         */ 
         private Token checkAuthentication(string token, bool mustBeAdmin)
         {
             Token tokenObject;

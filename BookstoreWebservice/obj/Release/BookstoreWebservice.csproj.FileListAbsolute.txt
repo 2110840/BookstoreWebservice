@@ -3,3 +3,9 @@ C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Ficha
 C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Ficha4_webServices\BookstoreWebservice\BookstoreWebservice\bin\BookstoreWebservice.pdb
 C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Ficha4_webServices\BookstoreWebservice\BookstoreWebservice\obj\Release\BookstoreWebservice.dll
 C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Ficha4_webServices\BookstoreWebservice\BookstoreWebservice\obj\Release\BookstoreWebservice.pdb
+C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Tutorials_WebService\BookstoreWebservice\BookstoreWebservice\bin\App_Data\bookstore.xml
+C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Tutorials_WebService\BookstoreWebservice\BookstoreWebservice\bin\BookstoreWebservice.dll
+C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Tutorials_WebService\BookstoreWebservice\BookstoreWebservice\bin\BookstoreWebservice.pdb
+C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Tutorials_WebService\BookstoreWebservice\BookstoreWebservice\obj\Release\BookstoreWebservice.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Tutorials_WebService\BookstoreWebservice\BookstoreWebservice\obj\Release\BookstoreWebservice.dll
+C:\Users\Carlos Silva\Documents\Visual Studio 2012\Projects\InterS_2014_15\Tutorials_WebService\BookstoreWebservice\BookstoreWebservice\obj\Release\BookstoreWebservice.pdb

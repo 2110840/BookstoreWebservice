@@ -111,6 +111,7 @@
             this.txtBox_OutPut.Location = new System.Drawing.Point(13, 161);
             this.txtBox_OutPut.Multiline = true;
             this.txtBox_OutPut.Name = "txtBox_OutPut";
+            this.txtBox_OutPut.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtBox_OutPut.Size = new System.Drawing.Size(319, 169);
             this.txtBox_OutPut.TabIndex = 7;
             // 
