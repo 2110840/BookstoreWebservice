@@ -115,7 +115,7 @@ namespace BookstoreWebservice
         }
 
 
-        [DataMember]
+        
         public override string ToString()
         {
             //string res = String.Empty;
