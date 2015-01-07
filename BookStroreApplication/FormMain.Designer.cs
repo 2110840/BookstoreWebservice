@@ -36,6 +36,7 @@
             this.cbox_Operation = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtBox_OutPut = new System.Windows.Forms.TextBox();
+            this.cb_teste = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // bt_LogIn
@@ -115,11 +116,20 @@
             this.txtBox_OutPut.Size = new System.Drawing.Size(319, 169);
             this.txtBox_OutPut.TabIndex = 7;
             // 
+            // cb_teste
+            // 
+            this.cb_teste.FormattingEnabled = true;
+            this.cb_teste.Location = new System.Drawing.Point(15, 98);
+            this.cb_teste.Name = "cb_teste";
+            this.cb_teste.Size = new System.Drawing.Size(121, 21);
+            this.cb_teste.TabIndex = 8;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(357, 367);
+            this.Controls.Add(this.cb_teste);
             this.Controls.Add(this.txtBox_OutPut);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbox_Operation);
@@ -146,6 +156,7 @@
         private System.Windows.Forms.ComboBox cbox_Operation;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtBox_OutPut;
+        private System.Windows.Forms.ComboBox cb_teste;
     }
 }
 

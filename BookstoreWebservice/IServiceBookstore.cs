@@ -115,16 +115,16 @@ namespace BookstoreWebservice
         }
 
 
-
+        [DataMember]
         public override string ToString()
         {
-            string res = String.Empty;
-            res += "Title: " + _title + Environment.NewLine;
-            res += "Author: " + _author + Environment.NewLine;
-            res += "Year: " + _year + Environment.NewLine;
-            res += "Price: " + _price + Environment.NewLine;
-            res += "Category: " + _category + Environment.NewLine;
-            return res;
+            //string res = String.Empty;
+            //res += "Title: " + _title + Environment.NewLine;
+            //res += "Author: " + _author + Environment.NewLine;
+            //res += "Year: " + _year + Environment.NewLine;
+            //res += "Price: " + _price + Environment.NewLine;
+            //res += "Category: " + _category + Environment.NewLine;
+            return _title;
         }
 
     }

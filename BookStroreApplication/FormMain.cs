@@ -90,6 +90,7 @@ namespace BookStroreApplication
 
         private void bt_Go_Click(object sender, EventArgs e)
         {
+            cb_teste.DataSource = client.GetBooks(token);
             txtBox_OutPut.Clear();
             try
             {
